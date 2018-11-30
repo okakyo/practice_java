@@ -21,7 +21,18 @@ class Cars{
 	}
 }
 
-	
+class Republic_Car extends Cars{
+
+}
+
+class Super_Car extends Cars{
+
+}
+
+class Truck extends Cars{
+
+}
+
 class Car{
 	public static void main(String[] args){
 	Cars car=new Cars();
