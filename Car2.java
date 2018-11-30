@@ -1,3 +1,18 @@
+abstract class Viecle {
+	private int num;
+	private double gas;
+
+	public void set(int n, double gas){
+	
+	num=n;
+	gas=gas;
+	System.out.println("æ‚è•¨‚ğİ’è‚µ‚Ü‚µ‚½B")
+	}
+
+
+
+}
+
 
 class Cars{
 	private int num;
@@ -21,7 +36,7 @@ class Cars{
 }
 
 	
-class Car{
+class Car2{
 	public static void main(String[] args){
 	Cars car=new Cars();
 	car.setCar(10,20.0);
