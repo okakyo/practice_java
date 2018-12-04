@@ -1,7 +1,7 @@
-class Viecle{
-	int fuel;
-	int velocity;
-	int height=0;
+abstract class Viecle{
+		int fuel;
+		int velocity;
+		int height=0;
 	public:{
 		void Accel(){
 		

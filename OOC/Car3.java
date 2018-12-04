@@ -21,22 +21,25 @@ class Cars{
 	}
 }
 
-class Republic_Car extends Cars{
 
+class Racingcar extends Cars{
+	private int course;
+	public void  RacingCar(){
+	course=0;
+	System.out.println("レーシングカーを作成しました。");
+	
+	}
+	public void setCourse(int c){
+		course=c;
+		System.out.println("コース番号を"+course+"にしました。");
+
+	}
 }
 
-class Super_Car extends Cars{
 
-}
-
-class Truck extends Cars{
-
-}
-
-class Car{
+class Car3{
 	public static void main(String[] args){
-	Cars car=new Cars();
-	car.setCar(10,20.0);
-	car.show();
+	Racingcar car=new Racingcar();
+	car.setCourse(10);
 	}
 }
