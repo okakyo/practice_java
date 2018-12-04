@@ -24,7 +24,7 @@ class Cars{
 	}
 }
 
-
+// 以下のようにして、クラス継承を行う。
 class Racingcar extends Cars{
 
 	private int course;
