@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 class window{
 	
 	public static void main(String[] args){
-		GameWindow gw=new GameWindow("ƒeƒXƒg",640,480);
+		GameWindow gw=new GameWindow("ã‚²ãƒ¼ãƒ ",640,480);
 		gw.add(new DrawCanvas());
 		gw.setVisible(true);
 
@@ -37,14 +37,3 @@ class DrawCanvas extends JPanel{
 	}
 }
 
-class control{
-	public 
-}
-class Robots{
-	double R,w,h,sp;
-	double P,I,D;
- 	public:
-		void Robots(){}
-		void Control(){};
-
-}

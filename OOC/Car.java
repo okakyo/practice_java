@@ -2,20 +2,19 @@ class Cars{
 	private int num;
 	private double gas;
 
-	public Cars(){    //ƒCƒ“ƒXƒ^ƒ“ƒXi‰Šú‰»‚µ‚Ä‚¢‚éBj
+	public Cars(){    
 	num=0;
 	gas=0.0;
-	System.out.println("Ô‚ğì¬‚µ‚Ü‚µ‚½B");
+	System.out.println("ï¿½Ô‚ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B");
 	}
-//ˆÈ‰º‚ÍŠÖ”‚Ì—ñ‹“‚µ‚Ä‚¢‚éB
 	public void setCar(int n,double g){
 	num=n;
 	gas=g;
-	System.out.println("Ô‚ğì¬‚µ‚Ü‚µ‚½Bƒiƒ“ƒo[‚Í"+n+",ƒKƒX‚Í"+g+"‚Å‚·B");
+	System.out.println("ï¿½Ô‚ï¿½ï¿½ì¬ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Bï¿½iï¿½ï¿½ï¿½oï¿½[ï¿½ï¿½"+n+",ï¿½Kï¿½Xï¿½ï¿½"+g+"ï¿½Å‚ï¿½ï¿½B");
 	}
 	public void show(){
-	System.out.println("Ô‚Ìƒiƒ“ƒo[F"+num);
-	System.out.println("ƒKƒ\ƒŠƒ“—ÊF"+gas);
+	System.out.println("ï¿½Ô‚Ìƒiï¿½ï¿½ï¿½oï¿½[ï¿½F"+num);
+	System.out.println("ï¿½Kï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ÊF"+gas);
 	}
 }
 

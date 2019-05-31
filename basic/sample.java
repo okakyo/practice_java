@@ -1,6 +1,5 @@
 class sample{
-	public static void main(String[] arg){
-		for(int i=0;i<10;i++)
-			System.out.println("Hello");
+	public static void main(String[] args){
+		System.out.println("Hello World!");
 	}
 }
